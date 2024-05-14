@@ -13,7 +13,7 @@ def calculer_metre_lineaire(hauteur_mur, largeur_mur, largeur_papier, raccord):
     return metre_lineaire
 
 
-st.write("Hello Charlie ☀️!")
+st.write("Hello Team Elitis ☀️!")
 
 hauteur_mur = st.number_input("Entrez la hauteur du mur en mètres", value=0, placeholder="Entrez un nombre...")
 # st.write(f"La hauteur du mur est de {hauteur_mur} mètres")
