@@ -15,16 +15,16 @@ def calculer_metre_lineaire(hauteur_mur, largeur_mur, largeur_papier, raccord):
 
 st.write("Hello Team Elitis ☀️!")
 
-hauteur_mur = st.number_input("Entrez la hauteur du mur en mètres", value=0, placeholder="Entrez un nombre...")
+hauteur_mur = st.number_input("Entrez la hauteur du mur en mètres", value=0.0, step=0.01, format='%f', placeholder="Entrez un nombre...")
 # st.write(f"La hauteur du mur est de {hauteur_mur} mètres")
 
-largeur_mur = st.number_input("Entrez la largeur du mur en mètres", value=0, placeholder="Entrez un nombre...")
+largeur_mur = st.number_input("Entrez la largeur du mur en mètres", value=0.0, step=0.01, format='%f', placeholder="Entrez un nombre...")
 # st.write(f"La largeur du mur est de {largeur_mur} mètres")
 
-largeur_papier = st.number_input("Entrez la largeur du papier peint en mètres", value=1, placeholder="Entrez un nombre...")
+largeur_papier = st.number_input("Entrez la largeur du papier peint en mètres", value=1.0, step=0.01, format='%f', placeholder="Entrez un nombre...")
 # st.write(f"La largeur du papier peint est de {largeur_papier} mètres")
 
-raccord = st.number_input("Entrez le raccord du papier peint en mètres", value=0, placeholder="Entrez un nombre...")
+raccord = st.number_input("Entrez le raccord du papier peint en mètres", value=0.0, step=0.01, format='%f', placeholder="Entrez un nombre...")
 # st.write(f"Le raccord du papier peint est de {raccord} mètres")
 
 # Calcul du métrage nécessaire
